@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.fragments;
+package com.aicp.settings.fragments;
 
 import android.os.Bundle;
 import android.content.Context;

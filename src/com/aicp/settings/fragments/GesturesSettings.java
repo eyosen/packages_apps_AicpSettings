@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.fragments;
+package com.aicp.settings.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.syberia.settings.Utils;
+import com.aicp.settings.Utils;
 
 @SearchIndexable
 public class GesturesSettings extends SettingsPreferenceFragment {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.fragments.common;
+package com.aicp.settings.fragments.common;
 
 import android.graphics.Bitmap;
 import android.widget.TextView;

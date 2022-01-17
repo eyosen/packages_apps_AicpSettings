@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.fragments;
+package com.aicp.settings.fragments;
 
 import android.app.ActivityManagerNative;
 import android.content.Context;
@@ -47,8 +47,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-import com.syberia.settings.preference.CustomSeekBarPreference;
-import com.syberia.settings.preference.SystemSettingSwitchPreference;
+import com.aicp.settings.preference.CustomSeekBarPreference;
+import com.aicp.settings.preference.SystemSettingSwitchPreference;
 
 public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 

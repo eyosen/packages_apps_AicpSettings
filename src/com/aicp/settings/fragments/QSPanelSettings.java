@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.fragments;
+package com.aicp.settings.fragments;
 
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.syberia.settings.preference.SystemSettingListPreference;
+import com.aicp.settings.preference.SystemSettingListPreference;
 
 @SearchIndexable
 public class QSPanelSettings extends SettingsPreferenceFragment{

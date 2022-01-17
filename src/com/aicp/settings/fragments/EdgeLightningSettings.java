@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.syberia.settings.fragments;
+package com.aicp.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -31,9 +31,9 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.syberia.settings.preference.CustomSeekBarPreference;
-import com.syberia.settings.preference.SystemSettingListPreference;
-import com.syberia.settings.preference.SystemSettingSwitchPreference;
+import com.aicp.settings.preference.CustomSeekBarPreference;
+import com.aicp.settings.preference.SystemSettingListPreference;
+import com.aicp.settings.preference.SystemSettingSwitchPreference;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 

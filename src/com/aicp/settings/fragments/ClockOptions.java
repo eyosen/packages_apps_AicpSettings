@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.fragments;
+package com.aicp.settings.fragments;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
@@ -39,7 +39,7 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.syberia.settings.preference.SystemSettingSwitchPreference;
+import com.aicp.settings.preference.SystemSettingSwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.fragments;
+package com.aicp.settings.fragments;
 
 import static android.os.UserHandle.USER_CURRENT;
 import static android.os.UserHandle.USER_SYSTEM;
@@ -52,7 +52,7 @@ import java.util.List;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.syberia.settings.preference.SystemSettingListPreference;
+import com.aicp.settings.preference.SystemSettingListPreference;
 import com.android.settings.development.OverlayCategoryPreferenceController;
 
 import android.provider.Settings;

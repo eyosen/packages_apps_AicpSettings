@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.fragments;
+package com.aicp.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -35,11 +35,11 @@ import com.android.settingslib.search.SearchIndexable;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.syberia.settings.Utils;
+import com.aicp.settings.Utils;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.syberia.settings.preference.CustomSeekBarPreference;
+import com.aicp.settings.preference.CustomSeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.Arrays;

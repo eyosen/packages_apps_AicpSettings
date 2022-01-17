@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.fragments;
+package com.aicp.settings.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -36,12 +36,12 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.syberia.settings.fragments.common.AboutTeamAdapter;
-import com.syberia.settings.fragments.common.AboutTeamAdapter.About;
-import com.syberia.settings.fragments.common.AboutTeamAdapter.Dev;
-import com.syberia.settings.fragments.common.AboutTeamAdapter.TeamHeader;
-import com.syberia.settings.fragments.common.AboutTeamAdapter.Header;
-import com.syberia.settings.fragments.common.AboutTeamAdapter.OnClickListener;
+import com.aicp.settings.fragments.common.AboutTeamAdapter;
+import com.aicp.settings.fragments.common.AboutTeamAdapter.About;
+import com.aicp.settings.fragments.common.AboutTeamAdapter.Dev;
+import com.aicp.settings.fragments.common.AboutTeamAdapter.TeamHeader;
+import com.aicp.settings.fragments.common.AboutTeamAdapter.Header;
+import com.aicp.settings.fragments.common.AboutTeamAdapter.OnClickListener;
 
 import java.util.ArrayList;
 import java.util.List;
