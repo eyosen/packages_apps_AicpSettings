@@ -384,6 +384,8 @@
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_arrow_keys_title">Arrow keys</string>
+    <string name="navbar_arrow_keys_summary">Enable to show arrow keys on either end of navbar while typing</string>
 
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB notification</string>
