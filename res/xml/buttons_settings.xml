@@ -18,7 +18,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_title">
-
+<!--
     <PreferenceCategory
         android:key="power_button_category"
         android:title="@string/power_button_category_title">
@@ -36,11 +36,11 @@
             android:fragment="com.aicp.settings.fragments.GlobalActionsSettings" />
 
     </PreferenceCategory>
-
+-->
     <PreferenceCategory
             android:key="volume_keys"
             android:title="@string/volume_keys_category" >
-
+<!--
     <com.aicp.settings.preference.SystemSettingSwitchPreference
             android:key="volume_button_music_control"
             android:summary="@string/volume_rocker_music_controls_summary"
@@ -52,7 +52,7 @@
             android:summary="@string/volume_rocker_wake_summary"
             android:title="@string/volume_rocker_wake_title"
             android:defaultValue="false" />
-
+-->
     <com.aicp.settings.preference.SystemSettingListPreference
             android:key="volume_key_cursor_control"
             android:summary="%s"
@@ -63,7 +63,7 @@
             android:defaultValue="0" />
 
     </PreferenceCategory>
-
+<!--
     <PreferenceCategory
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category" >
@@ -197,5 +197,5 @@
         </com.aicp.settings.preference.ActionPreference>
 
     </PreferenceCategory>
-
+-->
 </PreferenceScreen>

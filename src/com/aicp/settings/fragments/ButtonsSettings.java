@@ -83,7 +83,7 @@ public class ButtonsSettings extends ActionFragment {/*implements OnPreferenceCh
     public static final int KEY_MASK_VOLUME = 0x40;
 
     private SwitchPreference mHwKeyDisable;
-
+*/
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -91,7 +91,7 @@ public class ButtonsSettings extends ActionFragment {/*implements OnPreferenceCh
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
+/*
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
                 .findPreference(CATEGORY_HWKEY);
@@ -161,8 +161,8 @@ public class ButtonsSettings extends ActionFragment {/*implements OnPreferenceCh
 
         // load preferences first
         setActionPreferencesEnabled(keysDisabled == 0);
-    }
-
+*/    }
+/*
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
