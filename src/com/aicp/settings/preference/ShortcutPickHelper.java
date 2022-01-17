@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.preference;
+package com.aicp.settings.preference;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -41,7 +41,7 @@ import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import com.android.settings.R;
-import com.syberia.settings.preference.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
+import com.aicp.settings.preference.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
 
 public class ShortcutPickHelper {
 

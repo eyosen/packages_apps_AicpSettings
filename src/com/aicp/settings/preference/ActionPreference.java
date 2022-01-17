@@ -18,7 +18,7 @@
  * key is identical to the target ConfigMap tag in ActionConstants 
  */
 
-package com.syberia.settings.preference;
+package com.aicp.settings.preference;
 
 import java.util.Map;
 

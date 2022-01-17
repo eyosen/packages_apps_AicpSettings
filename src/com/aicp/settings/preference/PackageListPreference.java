@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.syberia.settings.preference;
+package com.aicp.settings.preference;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -39,8 +39,8 @@ import com.android.settings.R;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-import com.syberia.settings.preference.PackageListAdapter;
-import com.syberia.settings.preference.PackageListAdapter.PackageItem;
+import com.aicp.settings.preference.PackageListAdapter;
+import com.aicp.settings.preference.PackageListAdapter.PackageItem;
 
 public class PackageListPreference extends PreferenceCategory implements
         Preference.OnPreferenceClickListener {

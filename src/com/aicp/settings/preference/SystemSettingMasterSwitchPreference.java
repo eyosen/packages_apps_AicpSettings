@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.preference;
+package com.aicp.settings.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.syberia.settings.preference.SystemSettingsStore;
+import com.aicp.settings.preference.SystemSettingsStore;
 import com.android.settings.R;
 
 public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {

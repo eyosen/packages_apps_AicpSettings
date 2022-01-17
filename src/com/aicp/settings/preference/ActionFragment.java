@@ -17,7 +17,7 @@
  * class that holds target widget state
  */
 
-package com.syberia.settings.preference;
+package com.aicp.settings.preference;
 
 import java.util.ArrayList;
 
@@ -28,9 +28,9 @@ import com.android.internal.util.hwkeys.Config;
 import com.android.internal.util.hwkeys.Config.ActionConfig;
 import com.android.internal.util.hwkeys.Config.ButtonConfig;
 
-import com.syberia.settings.preference.ShortcutPickHelper;
-import com.syberia.settings.preference.ActionPreference;
-import com.syberia.settings.preference.CustomActionListAdapter;
+import com.aicp.settings.preference.ShortcutPickHelper;
+import com.aicp.settings.preference.ActionPreference;
+import com.aicp.settings.preference.CustomActionListAdapter;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

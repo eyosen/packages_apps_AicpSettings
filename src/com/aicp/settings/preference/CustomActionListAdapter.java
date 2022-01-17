@@ -16,7 +16,7 @@
  * Adapter for displaying custom actions in a list
  */
 
-package com.syberia.settings.preference;
+package com.aicp.settings.preference;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.preference;
+package com.aicp.settings.preference;
 
 import android.content.Context;
 import android.content.res.TypedArray;
