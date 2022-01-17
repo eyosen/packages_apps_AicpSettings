@@ -38,7 +38,7 @@ import java.util.List;
 public class NotificationsSettings extends SettingsPreferenceFragment {
 
     private static final String LIGHTS_CATEGORY = "lights_category";
-
+/*
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
@@ -55,10 +55,10 @@ public class NotificationsSettings extends SettingsPreferenceFragment {
         return context.getResources().getBoolean(
                 com.android.internal.R.bool.config_intrusiveBatteryLed);
     }
-
+*/
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.AICP_METRICS;
     }
 
     /**

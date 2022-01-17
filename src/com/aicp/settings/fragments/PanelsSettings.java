@@ -44,7 +44,7 @@ public class PanelsSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.AICP_METRICS;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

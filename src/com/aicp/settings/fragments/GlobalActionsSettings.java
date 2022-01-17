@@ -61,7 +61,7 @@ public class GlobalActionsSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.SYBERIA;
+        return MetricsEvent.AICP_METRICS;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

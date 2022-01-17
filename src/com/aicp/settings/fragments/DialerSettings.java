@@ -46,7 +46,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class DialerSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class DialerSettings extends SettingsPreferenceFragment {/* implements OnPreferenceChangeListener {
 
     private static final String FLASH_ON_CALL_WAITING_DELAY = "flash_on_call_waiting_delay";
     private CustomSeekBarPreference mFlashOnCallWaitingDelay;
@@ -72,10 +72,10 @@ public class DialerSettings extends SettingsPreferenceFragment implements OnPref
         }
     return false;
     }
-
+*/
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.AICP_METRICS;
     }
 
     /**

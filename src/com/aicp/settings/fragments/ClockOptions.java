@@ -49,7 +49,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Date;
 
-public class ClockOptions extends SettingsPreferenceFragment
+public class ClockOptions extends SettingsPreferenceFragment {/*
         implements Preference.OnPreferenceChangeListener {
 
     private static final String STATUSBAR_CLOCK = "statusbar_clock";
@@ -153,12 +153,12 @@ public class ClockOptions extends SettingsPreferenceFragment
         mClockDatePosition.setSummary(mClockDatePosition.getEntry());
         mClockDatePosition.setOnPreferenceChangeListener(this);
     }
-
+*/
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.AICP_METRICS;
     }
-
+/*
     @Override
     public void onResume() {
         super.onResume();
@@ -299,5 +299,5 @@ public class ClockOptions extends SettingsPreferenceFragment
             }
         }
         mClockDateFormat.setEntries(parsedDateEntries);
-    }
+    }*/
 }

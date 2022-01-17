@@ -93,7 +93,7 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.AICP_METRICS;
     }
 
     @Override

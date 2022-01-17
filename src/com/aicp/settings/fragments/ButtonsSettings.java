@@ -57,7 +57,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SearchIndexable
-public class ButtonsSettings extends ActionFragment implements OnPreferenceChangeListener {
+public class ButtonsSettings extends ActionFragment {/*implements OnPreferenceChangeListener {
 
     //Keys
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
@@ -180,10 +180,10 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     protected boolean usesExtendedActionsList() {
         return true;
     }
-
+*/
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.AICP_METRICS;
     }
 
     /**

@@ -42,7 +42,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class BatteryLightSettings extends SettingsPreferenceFragment implements
+public class BatteryLightSettings extends SettingsPreferenceFragment {/*implements
         Preference.OnPreferenceChangeListener {
 
     private ColorPickerPreference mLowColor;
@@ -107,12 +107,12 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             prefSet.removePreference(mColorCategory);
         }
     }
-
+*/
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.AICP_METRICS;
     }
-
+/*
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference.equals(mLowColor)) {
             int color = ((Integer) newValue).intValue();
@@ -148,7 +148,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         }
         return false;
     }
-
+*/
     /**
      * For Search.
      */
@@ -169,5 +169,4 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
                     return keys;
                 }
     };
-
 }

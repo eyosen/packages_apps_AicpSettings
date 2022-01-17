@@ -103,7 +103,7 @@ public class EdgeLightningSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.AICP_METRICS;
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {

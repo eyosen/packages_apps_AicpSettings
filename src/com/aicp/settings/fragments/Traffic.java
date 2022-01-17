@@ -50,7 +50,7 @@ import com.android.settings.Utils;
 import com.aicp.settings.preference.CustomSeekBarPreference;
 import com.aicp.settings.preference.SystemSettingSwitchPreference;
 
-public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class Traffic extends SettingsPreferenceFragment {/* implements OnPreferenceChangeListener {
 
     private static final String NETWORK_TRAFFIC_TYPE  = "network_traffic_type";
     private static final String NETWORK_TRAFFIC_VIEW_LOCATION  = "network_traffic_view_location";
@@ -109,17 +109,17 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
         }
         mNetTrafficLocation.setSummary(mNetTrafficLocation.getEntry());
     }
-
+*/
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.SYBERIA;
+        return MetricsEvent.AICP_METRICS;
     }
 
     @Override
     public void onResume() {
         super.onResume();
     }
-
+/*
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mNetTrafficLocation) {
@@ -175,5 +175,5 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
             mNetTrafficType.setEnabled(true);
             mNetTrafficSize.setEnabled(true);
         }
-    }
+    }*/
 }
