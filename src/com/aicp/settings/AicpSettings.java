@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings;
+package com.aicp.settings;
 
 import android.os.Bundle;
 
@@ -23,17 +23,17 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class SyberiaSettings extends SettingsPreferenceFragment {
+public class AicpSettings extends SettingsPreferenceFragment {
 
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        addPreferencesFromResource(R.xml.syberia_settings);
+        addPreferencesFromResource(R.xml.aicp_settings);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.AICP_METRICS;
     }
 }

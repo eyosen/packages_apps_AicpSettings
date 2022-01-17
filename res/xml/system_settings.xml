@@ -19,21 +19,21 @@
     android:title="@string/system_category_title">
 
     <Preference
-        android:fragment="com.syberia.settings.fragments.GeneralTweaks"
+        android:fragment="com.aicp.settings.fragments.GeneralTweaks"
         android:icon="@drawable/ic_general_tweaks"
         android:key="general_tweaks"
         android:summary="@string/general_tweaks_summary"
         android:title="@string/general_tweaks_title" />
 
     <Preference
-        android:fragment="com.syberia.settings.fragments.ButtonsSettings"
+        android:fragment="com.aicp.settings.fragments.ButtonsSettings"
         android:icon="@drawable/ic_buttons"
         android:key="buttons"
         android:summary="@string/buttons_summary"
         android:title="@string/buttons_title" />
 
     <Preference
-        android:fragment="com.syberia.settings.fragments.NotificationsSettings"
+        android:fragment="com.aicp.settings.fragments.NotificationsSettings"
         android:icon="@drawable/ic_settings_notifications"
         android:key="notifications_category"
         android:summary="@string/notifications_summary"
@@ -44,6 +44,6 @@
         android:key="dialer"
         android:summary="@string/dialer_summary"
         android:title="@string/dialer_title"
-        android:fragment="com.syberia.settings.fragments.DialerSettings" />
+        android:fragment="com.aicp.settings.fragments.DialerSettings" />
 
 </PreferenceScreen>

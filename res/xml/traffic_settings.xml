@@ -35,13 +35,13 @@
         android:defaultValue="0"
         android:persistent="false" />
 
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
+    <com.aicp.settings.preference.SystemSettingSwitchPreference
         android:key="network_traffic_arrow"
         android:title="@string/network_traffic_arrow"
         android:summary="@string/network_traffic_arrow_summary"
         android:defaultValue="false" />
 
-    <com.syberia.settings.preference.CustomSeekBarPreference
+    <com.aicp.settings.preference.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold_title"
         android:max="10"
@@ -49,7 +49,7 @@
         settings:defaultValue="1"
         settings:units="" />
 
-    <com.syberia.settings.preference.CustomSeekBarPreference
+    <com.aicp.settings.preference.CustomSeekBarPreference
         android:key="network_traffic_font_size"
         android:title="@string/nettraf_font_size"
         android:max="46"

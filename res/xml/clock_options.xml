@@ -18,7 +18,7 @@
             xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
             android:title="@string/clock_options_title" >
 
-        <com.syberia.settings.preference.SystemSettingSwitchPreference
+        <com.aicp.settings.preference.SystemSettingSwitchPreference
             android:key="statusbar_clock"
             android:title="@string/statusbar_clock_show"
             android:defaultValue="true" />
@@ -39,7 +39,7 @@
             android:entryValues="@array/statusbar_am_pm_values"
             android:dependency="statusbar_clock" />
 
-        <com.syberia.settings.preference.SystemSettingSwitchPreference
+        <com.aicp.settings.preference.SystemSettingSwitchPreference
             android:key="statusbar_clock_seconds"
             android:title="@string/clock_seconds_display"
             android:dependency="statusbar_clock"

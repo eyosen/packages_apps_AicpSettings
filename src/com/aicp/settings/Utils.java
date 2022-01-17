@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.syberia.settings;
+package com.aicp.settings;
 
 import android.app.Activity;
 import android.content.Context;
