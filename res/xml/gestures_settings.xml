@@ -41,6 +41,12 @@
         android:entryValues="@array/torch_power_button_gesture_values"
         android:defaultValue="0" /-->
 
+    <com.aicp.gear.preference.SecureSettingSwitchPreference
+        android:key="fp_swipe_to_dismiss_notifications"
+        android:title="@string/fp_swipe_to_dismiss_notifications_title"
+        android:summary="@string/fp_swipe_to_dismiss_notifications_summary"
+        android:defaultValue="false" />
+
  <PreferenceCategory
         android:title="@string/doubletap_gestures_title"
         android:key="doubleap_gestures" >
