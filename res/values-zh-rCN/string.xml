@@ -15,8 +15,8 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Syberia 设置</string>
-    <string name="syberia_dashboard_summary">Syberia OS 提供的额外设置( •̀ ω •́ )✧</string>
+    <string name="aicp_settings_title">Syberia 设置</string>
+    <string name="aicp_dashboard_summary">Syberia OS 提供的额外设置( •̀ ω •́ )✧</string>
     <string name="gestures_category_title">手势</string>
     <string name="gestures_category_summary">各种手势设置</string>
     <string name="system_category_title">系统</string>

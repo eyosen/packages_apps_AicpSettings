@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Настройки Syberia</string>
-    <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
+    <string name="aicp_settings_title">Настройки Syberia</string>
+    <string name="aicp_dashboard_summary">Расширенные настройки Syberia</string>
 
     <string name="gestures_category_title">Жесты</string>
     <string name="gestures_category_summary">Настройка различных жестов</string>

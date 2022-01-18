@@ -15,8 +15,8 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Ρυθμίσεις Σιβηρίας</string>
-    <string name="syberia_dashboard_summary">Οι περισσότερες επιπλέον δυνατότητες προστέθηκαν στο Πρόγραμμα Σιβηρία</string>
+    <string name="aicp_settings_title">Ρυθμίσεις Σιβηρίας</string>
+    <string name="aicp_dashboard_summary">Οι περισσότερες επιπλέον δυνατότητες προστέθηκαν στο Πρόγραμμα Σιβηρία</string>
     <string name="gestures_category_title">Χειρονομίες</string>
     <string name="gestures_category_summary">Διάφορες ρυθμίσεις χειρονομιών</string>
     <string name="system_category_title">Σύστημα</string>

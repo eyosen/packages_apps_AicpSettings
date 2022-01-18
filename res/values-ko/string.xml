@@ -15,8 +15,8 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Syberia 설정</string>
-    <string name="syberia_dashboard_summary">Syberia Project의 추가 기능</string>
+    <string name="aicp_settings_title">Syberia 설정</string>
+    <string name="aicp_dashboard_summary">Syberia Project의 추가 기능</string>
     <string name="gestures_category_title">제스처</string>
     <string name="gestures_category_summary">다양한 제스처 설정</string>
     <string name="system_category_title">시스템</string>

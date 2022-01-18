@@ -15,8 +15,8 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Cài đặt Syberia</string>
-    <string name="syberia_dashboard_summary">Hầu hết các tính năng bổ sung được thêm vào Dự án Syberia</string>
+    <string name="aicp_settings_title">Cài đặt Syberia</string>
+    <string name="aicp_dashboard_summary">Hầu hết các tính năng bổ sung được thêm vào Dự án Syberia</string>
     <string name="gestures_category_title">Cử chỉ</string>
     <string name="gestures_category_summary">Quản lý thiết lập cử chỉ</string>
     <string name="system_category_title">Hệ thống</string>

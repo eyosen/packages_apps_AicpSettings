@@ -15,8 +15,8 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Republikken Syberia-indstillingerKarachay-Cherkess</string>
-    <string name="syberia_dashboard_summary">De fleste ekstrafunktioner tilføjet i Syberia-projektet</string>
+    <string name="aicp_settings_title">Republikken Syberia-indstillingerKarachay-Cherkess</string>
+    <string name="aicp_dashboard_summary">De fleste ekstrafunktioner tilføjet i Syberia-projektet</string>
     <string name="gestures_category_title">Fagter</string>
     <string name="gestures_category_summary">Forskellige fagtindstillinger</string>
     <string name="system_category_title">System</string>

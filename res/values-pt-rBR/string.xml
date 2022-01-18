@@ -15,8 +15,8 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Configurações Syberia</string>
-    <string name="syberia_dashboard_summary">A maioria dos recursos extras adicionados no Projeto Syberia</string>
+    <string name="aicp_settings_title">Configurações Syberia</string>
+    <string name="aicp_dashboard_summary">A maioria dos recursos extras adicionados no Projeto Syberia</string>
     <string name="gestures_category_title">Gestos</string>
     <string name="gestures_category_summary">Várias configurações de gestos</string>
     <string name="system_category_title">Sistema</string>
