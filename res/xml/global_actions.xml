@@ -19,58 +19,53 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/global_actions_title" >
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
+<!--    <com.aicp.settings.preference.SystemSettingSwitchPreference
         android:key="lockscreen_power_menu_disabled"
         android:title="@string/lockscreen_power_menu_disabled_title"
         android:summary="@string/lockscreen_power_menu_disabled_summary"
         android:defaultValue="true" />
-
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
-        android:key="global_actions_screenshot"
+-->
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="powermenu_screenshot"
         android:title="@string/global_actions_screenshot"
         android:defaultValue="false" />
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
-        android:key="global_actions_screenrecord"
-        android:title="@string/global_actions_screenrecord"
-        android:defaultValue="false" />
-
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
-        android:key="global_actions_airplane"
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="powermenu_airplane"
         android:title="@string/global_actions_airplane"
         android:defaultValue="false" />
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
-        android:key="global_actions_settings"
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="powermenu_settings"
         android:title="@string/global_actions_settings"
         android:defaultValue="false" />
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
-        android:key="global_actions_lockdown"
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="powermenu_lockdown"
         android:title="@string/global_actions_lockdown"
         android:defaultValue="false" />
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
-        android:key="global_actions_flashlight"
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="powermenu_torch"
         android:title="@string/global_actions_flashlight"
         android:defaultValue="false" />
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
-        android:key="global_actions_users"
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="powermenu_users"
         android:title="@string/global_actions_users"
         android:defaultValue="false" />
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
-        android:key="global_actions_emergency"
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="powermenu_emergency"
         android:title="@string/global_actions_emergency"
         android:defaultValue="false" />
 
-    <!--com.aicp.settings.preference.SystemSettingSwitchPreference
-        android:key="global_actions_soundpanel"
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="powermenu_soundpanel"
         android:title="@string/global_actions_soundpanel"
-        android:defaultValue="false" /-->
+        android:defaultValue="false" />
 
-    <com.aicp.settings.preference.SystemSettingSeekBarPreference
+    <!--com.aicp.settings.preference.SystemSettingSeekBarPreference
         android:key="global_actions_max_columns"
         android:title="@string/global_actions_max_columns_title"
         android:summary="@string/global_actions_max_columns_summary"
@@ -84,6 +79,6 @@
         android:summary="@string/global_actions_max_rows_summary"
         android:max="8"
         android:min="1"
-        android:defaultValue="4"/>
+        android:defaultValue="4"/-->
 
 </PreferenceScreen>

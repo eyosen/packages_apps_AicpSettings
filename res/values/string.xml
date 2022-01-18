@@ -871,4 +871,9 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_icon_wifi_bar_title">Wi-Fi</string>
 
+    <string name="qs_footer_powermenu">Power menu</string>
+    <string name="qs_footer_user">User</string>
+    <string name="qs_footer_edit">Edit</string>
+    <string name="qs_footer_settings">Settings</string>
+    <string name="qs_footer_services">Services</string>
 </resources>
