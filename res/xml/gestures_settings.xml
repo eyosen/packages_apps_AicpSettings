@@ -45,17 +45,17 @@
         android:title="@string/doubletap_gestures_title"
         android:key="doubleap_gestures" >
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
         android:key="double_tap_sleep_lockscreen"
         android:title="@string/double_tap_sleep_lockscreen_title"
         android:summary="@string/double_tap_sleep_lockscreen_summary"
         android:defaultValue="false" />
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
-         android:key="double_tap_sleep_gesture"
-         android:title="@string/double_tap_sleep_gesture_title"
-         android:summary="@string/double_tap_sleep_gesture_summary"
-         android:defaultValue="false" />
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_sleep_gesture_title"
+        android:summary="@string/double_tap_sleep_gesture_summary"
+        android:defaultValue="false" />
 
  </PreferenceCategory>
 
