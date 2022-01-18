@@ -112,7 +112,12 @@
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
 
-    <string name="power_button_category_title">Power Button</string>
+    <string name="power_button_category_title">Power button</string>
+    <string name="alert_slider_category_title">Alert slider</string>
+
+    <!-- Alert slider notifications -->
+    <string name="alert_slider_notifications_title">Notifications</string>
+    <string name="alert_slider_notifications_summary">Disable to hide alert slider notifications</string>
 
     <!-- Global Actions -->
     <string name="global_actions_title">Power menu</string>
