@@ -23,7 +23,7 @@
         android:key="power_button_category"
         android:title="@string/power_button_category_title">
 
-        <com.aicp.gear.preference.SecureSettingSwitchPreference
+        <com.aicp.gear.preference.SystemSettingSwitchPreference
             android:key="powermenu_advanced"
             android:title="@string/global_actions_advanced_reboot_title"
             android:summary="@string/global_actions_advanced_reboot_summary"
