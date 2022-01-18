@@ -18,11 +18,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/gestures_category_title">
 
-    <com.aicp.settings.preference.SystemSettingSwitchPreference
+    <!--com.aicp.settings.preference.SystemSettingSwitchPreference
         android:key="three_finger_gesture"
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
-        android:defaultValue="false" />
+        android:defaultValue="false" /-->
 <!--
 
     <com.aicp.settings.preference.SystemSettingSwitchPreference
@@ -32,14 +32,14 @@
         android:defaultValue="false" />
 
 -->
-    <com.aicp.settings.preference.SystemSettingListPreference
+    <!--com.aicp.settings.preference.SystemSettingListPreference
         android:key="torch_power_button_gesture"
         android:dialogTitle="@string/torch_power_button_gesture_title"
         android:title="@string/torch_power_button_gesture_title"
         android:summary="%s"
         android:entries="@array/torch_power_button_gesture_entries"
         android:entryValues="@array/torch_power_button_gesture_values"
-        android:defaultValue="0" />
+        android:defaultValue="0" /-->
 
  <PreferenceCategory
         android:title="@string/doubletap_gestures_title"
