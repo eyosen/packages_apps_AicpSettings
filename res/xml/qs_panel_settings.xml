@@ -20,14 +20,19 @@
     android:title="@string/panel_quicksettings_title">
 
     <PreferenceCategory
-        android:key="quick_setting_footer_category"
-        android:title="@string/quick_settings_footer_category">
+        android:key="quick_settings_haptic_feedback_category"
+        android:title="@string/quick_settings_haptic_feedback_category">
 
-        <com.aicp.gear.preference.SystemSettingSwitchPreference
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
             android:key="qs_vibrate"
             android:title="@string/quick_settings_vibrate_title"
             android:summary="@string/quick_settings_vibrate_summary"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="quick_setting_footer_category"
+        android:title="@string/quick_settings_footer_category">
 
         <com.aicp.gear.preference.SecureSettingSwitchPreference
             android:key="qs_footer_show_settings"
