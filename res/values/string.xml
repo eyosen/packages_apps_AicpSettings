@@ -25,8 +25,8 @@
     <string name="system_category_summary">Various system extensions</string>
     <string name="statusbar_category_title">Statusbar</string>
     <string name="statusbar_category_summary">Customize your statusbar</string>
-    <string name="panels_category_title">Panels</string>
-    <string name="panels_category_summary">Statusbar, Notification, Quick Settings panels</string>
+    <string name="bars_category_title">Bars</string>
+    <string name="bars_category_summary">Status bar, navigation bar, battery bar</string>
     <string name="lockscreen_category_title">Lockscreen</string>
     <string name="lockscreen_category_summary">Customize your lockscreen</string>
     <string name="ui_category_title">UI Settings</string>

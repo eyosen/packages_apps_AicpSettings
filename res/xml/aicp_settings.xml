@@ -27,11 +27,11 @@
         android:title="@string/system_category_title" />
 
     <PreferenceScreen
-        android:fragment="com.aicp.settings.fragments.PanelsSettings"
-        android:icon="@drawable/ic_panels_category"
-        android:key="panels_category"
-        android:summary="@string/panels_category_summary"
-        android:title="@string/panels_category_title" />
+        android:fragment="com.aicp.settings.fragments.BarsSettings"
+        android:icon="@drawable/ic_bars_category"
+        android:key="bars_category"
+        android:summary="@string/bars_category_summary"
+        android:title="@string/bars_category_title" />
 
     <PreferenceScreen
         android:fragment="com.aicp.settings.fragments.GesturesSettings"

@@ -34,12 +34,12 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class PanelsSettings extends SettingsPreferenceFragment {
+public class BarsSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        addPreferencesFromResource(R.xml.panels_settings);
+        addPreferencesFromResource(R.xml.bars_settings);
     }
 
     @Override
@@ -54,7 +54,7 @@ public class PanelsSettings extends SettingsPreferenceFragment {
                 public List<SearchIndexableResource> getXmlResourcesToIndex(
                         Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.panels_settings;
+                    sir.xmlResId = R.xml.bars_settings;
                     return Arrays.asList(sir);
                 }
 
