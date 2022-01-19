@@ -41,11 +41,16 @@
         android:entryValues="@array/torch_power_button_gesture_values"
         android:defaultValue="0" /-->
 
+ <PreferenceCategory
+        android:title="@string/swipe_gestures_category_title"
+        android:key="swipe_gestures" >
+
     <com.aicp.gear.preference.SecureSettingSwitchPreference
         android:key="fp_swipe_to_dismiss_notifications"
         android:title="@string/fp_swipe_to_dismiss_notifications_title"
         android:summary="@string/fp_swipe_to_dismiss_notifications_summary"
         android:defaultValue="false" />
+ </PreferenceCategory>
 
  <PreferenceCategory
         android:title="@string/doubletap_gestures_title"
@@ -62,8 +67,5 @@
         android:title="@string/double_tap_sleep_gesture_title"
         android:summary="@string/double_tap_sleep_gesture_summary"
         android:defaultValue="false" />
-
  </PreferenceCategory>
-
-
 </PreferenceScreen>
