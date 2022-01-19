@@ -46,7 +46,7 @@
     <!-- About team -->
     <string name="about_team_title">About AICP</string>
     <string name="about_team_summary">Information about the team and maintainers</string>
-    <string name="aicp_team_title">AICP Team</string>
+    <string name="aicp_team_title">Team</string>
 
     <string name="quick_settings_footer_category">Footer icons</string>
     <string name="panel_quicksettings_title">QuickSettings</string>
