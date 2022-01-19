@@ -48,8 +48,9 @@
     <string name="about_team_summary">Information about the team and maintainers</string>
     <string name="syberia_team_title">Syberia Team</string>
 
-    <string name="panel_notifications_title">Notifications</string>
-    <string name="notifications_category_summary">Customize various features for notification panel</string>
+    <string name="quick_settings_footer_category">Footer icons</string>
+    <string name="panel_quicksettings_title">QuickSettings</string>
+    <string name="quicksettings_category_summary">Customize various features for QuickSettings panel</string>
 
     <string name="notifications_title">Notifications</string>
     <string name="notifications_summary">Custom notification settings</string>

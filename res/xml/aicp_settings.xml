@@ -34,6 +34,13 @@
         android:title="@string/bars_category_title" />
 
     <PreferenceScreen
+        android:fragment="com.aicp.settings.fragments.QSPanelSettings"
+        android:icon="@drawable/ic_settings_quick_settings"
+        android:key="quicksettings_category"
+        android:summary="@string/quicksettings_category_summary"
+        android:title="@string/panel_quicksettings_title" />
+
+    <PreferenceScreen
         android:fragment="com.aicp.settings.fragments.GesturesSettings"
         android:icon="@drawable/ic_gestures_page"
         android:key="gestures_category"

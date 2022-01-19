@@ -17,64 +17,69 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/panel_notifications_title">
+    android:title="@string/panel_quicksettings_title">
 
-    <com.aicp.gear.preference.SystemSettingSwitchPreference
-        android:key="qs_vibrate"
-        android:title="@string/quick_settings_vibrate_title"
-        android:summary="@string/quick_settings_vibrate_summary"
-        android:defaultValue="true" />
+    <PreferenceCategory
+        android:key="quick_setting_footer_category"
+        android:title="@string/quick_settings_footer_category">
 
-    <com.aicp.gear.preference.SystemSettingSwitchPreference
-        android:key="qs_footer_show_settings"
-        android:title="@string/qs_footer_settings"
-        android:defaultValue="false" />
+        <com.aicp.gear.preference.SystemSettingSwitchPreference
+            android:key="qs_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="true" />
 
-    <com.aicp.gear.preference.SystemSettingSwitchPreference
-        android:key="qs_footer_show_services"
-        android:title="@string/qs_footer_services"
-        android:defaultValue="false" />
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
+            android:key="qs_footer_show_settings"
+            android:title="@string/qs_footer_settings"
+            android:defaultValue="false" />
 
-    <com.aicp.gear.preference.SystemSettingSwitchPreference
-        android:key="qs_footer_show_edit"
-        android:title="@string/qs_footer_edit"
-        android:defaultValue="false" />
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
+            android:key="qs_footer_show_services"
+            android:title="@string/qs_footer_services"
+            android:defaultValue="false" />
 
-    <com.aicp.gear.preference.SystemSettingSwitchPreference
-        android:key="qs_footer_show_user"
-        android:title="@string/qs_footer_user"
-        android:defaultValue="false" />
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
+            android:key="qs_footer_show_edit"
+            android:title="@string/qs_footer_edit"
+            android:defaultValue="false" />
 
-    <com.aicp.gear.preference.SystemSettingSwitchPreference
-        android:key="qs_footer_show_power_menu"
-        android:title="@string/qs_footer_powermenu"
-        android:defaultValue="false" />
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
+            android:key="qs_footer_show_user"
+            android:title="@string/qs_footer_user"
+            android:defaultValue="false" />
+
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
+            android:key="qs_footer_show_power_menu"
+            android:title="@string/qs_footer_powermenu"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="quick_settings_brighness_category"
         android:title="@string/qs_brightness_slider_category">
 
-        <com.aicp.settings.preference.SecureSettingSwitchPreference
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
             android:key="qs_show_brightness"
             android:title="@string/qs_brightness_slider_title"
             android:summary="@string/qs_brightness_slider_summary"
             android:defaultValue="true"/>
 
-        <com.aicp.settings.preference.SecureSettingSwitchPreference
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
             android:key="sysui_qqs_brightness_slider"
             android:title="@string/quick_qs_brightness_slider_title"
             android:summary="@string/quick_qs_brightness_slider_summary"
             android:dependency="qs_show_brightness"
             android:defaultValue="false"/>
 
-        <com.aicp.settings.preference.SecureSettingSwitchPreference
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
             android:key="qs_show_auto_brightness_button"
             android:title="@string/brightness_icon_title"
             android:summary="@string/brightness_icon_summary"
             android:defaultValue="true"
             android:dependency="qs_show_brightness"/>
 
-        <com.aicp.settings.preference.SecureSettingSwitchPreference
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
             android:key="qs_brightness_position_bottom"
             android:title="@string/qs_brightness_position_bottom_title"
             android:summary="@string/qs_brightness_position_bottom_summary"
