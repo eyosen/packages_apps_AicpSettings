@@ -93,12 +93,18 @@ public class AboutTeamAdapter extends RecyclerView.Adapter<AboutTeamAdapter.Hold
     }
 
     public static class TeamHeader extends About {
+        public String teamWebsite;
+        public String teamDownloads;
         public String teamGithub;
-        public String teamTelegram;
+        public String teamGerrit;
+        public String teamDiscord;
 
-        public TeamHeader(String gihub, String telegram) {
+        public TeamHeader(String website, String downloads, String gihub, String gerrit, String discord) {
+            teamWebsite = website;
+            teamDownloads = downloads;
             teamGithub = gihub;
-            teamTelegram = telegram;
+            teamGerrit = gerrit;
+            teamDiscord = discord;
         }
     }
 
@@ -140,26 +146,50 @@ public class AboutTeamAdapter extends RecyclerView.Adapter<AboutTeamAdapter.Hold
     }
 
     static class TeamHeaderViewHolder extends Holder {
+        private ImageButton teamWebsite;
+        private ImageButton teamDownloads;
         private ImageButton teamGithub;
-        private ImageButton teamTelegram;
+        private ImageButton teamGerrit;
+        private ImageButton teamDiscord;
 
         private TeamHeader team;
 
         public TeamHeaderViewHolder(View itemView, final OnClickListener listener) {
             super(itemView, listener);
             teamGithub = itemView.findViewById(R.id.teamGithub);
-            teamTelegram = itemView.findViewById(R.id.teamTelegram);
+            teamWebsite = itemView.findViewById(R.id.teamWebsite);
+            teamGerrit = itemView.findViewById(R.id.teamGerrit);
+            teamDownloads = itemView.findViewById(R.id.teamDownloads);
+            teamDiscord = itemView.findViewById(R.id.teamDiscord);
 
+            teamWebsite.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    listener.OnClick(team.teamWebsite);
+                }
+            });
+            teamDownloads.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    listener.OnClick(team.teamDownloads);
+                }
+            });
             teamGithub.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     listener.OnClick(team.teamGithub);
                 }
             });
-            teamTelegram.setOnClickListener(new View.OnClickListener() {
+            teamGerrit.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    listener.OnClick(team.teamTelegram);
+                    listener.OnClick(team.teamGerrit);
+                }
+            });
+            teamDiscord.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    listener.OnClick(team.teamDiscord);
                 }
             });
         }
@@ -168,7 +198,7 @@ public class AboutTeamAdapter extends RecyclerView.Adapter<AboutTeamAdapter.Hold
         void bind(final About about) {
             team = (TeamHeader) about;
         }
-            
+
     }
 
     static class HeaderHolder extends Holder {

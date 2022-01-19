@@ -95,7 +95,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
     public String loadJSONFromAsset() {
         String json = null;
         try {
-            InputStream is = getActivity().getAssets().open("syberia.json");
+            InputStream is = getActivity().getAssets().open("aicp.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
@@ -112,13 +112,19 @@ public class AboutTeam extends SettingsPreferenceFragment {
     private void initList() {
         try {
             JSONObject obj = new JSONObject(loadJSONFromAsset());
+            String teamWebsite = "";
+            String teamDownloads = "";
             String teamGithub = "";
-            String teamTelegram = "";
+            String teamGerrit = "";
+            String teamDiscord = "";
 
+            if(obj.has("team_website")) teamWebsite = obj.getString("team_website");
+            if(obj.has("team_downloads")) teamDownloads = obj.getString("team_downloads");
             if(obj.has("team_github")) teamGithub = obj.getString("team_github");
-            if(obj.has("team_telegram")) teamTelegram = obj.getString("team_telegram");
+            if(obj.has("team_gerrit")) teamGerrit = obj.getString("team_gerrit");
+            if(obj.has("team_discord")) teamDiscord = obj.getString("team_discord");
 
-            list.add(new AboutTeamAdapter.TeamHeader(teamGithub,teamTelegram));
+            list.add(new AboutTeamAdapter.TeamHeader(teamWebsite,teamDownloads,teamGithub,teamGerrit,teamDiscord));
 
             if(obj.has("team")){
                 list.add(new AboutTeamAdapter.Header("Team"));
@@ -128,10 +134,10 @@ public class AboutTeam extends SettingsPreferenceFragment {
                     list.add(new AboutTeamAdapter.Dev(
                             dev.getString("name"),
                             dev.getString("role"),
-                            dev.getString("avatar"),
-                            dev.getString("xda_link"),
+                            "",//dev.getString("avatar"),
+                            "",//dev.getString("xda_link"),
                             "",
-                            dev.getString("telegram_link")
+                            ""//dev.getString("telegram_link")
                     ));
                 }
             }

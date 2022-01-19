@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" 
+    android:layout_height="wrap_content"
     android:layout_margin="8dp"
     app:cardCornerRadius="8.0dip"
     app:cardElevation="3.0dip">
@@ -30,33 +30,71 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/syberia_team_title"
-            android:textSize="18sp"
+            android:text="@string/aicp_team_title"
+            android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <ImageButton
-            android:id="@+id/teamGithub"
-            android:layout_width="96dp"
+            android:id="@+id/teamWebsite"
+            android:layout_width="80dp"
             android:layout_height="48dp"
             android:background="?android:attr/selectableItemBackground"
-            app:layout_constraintEnd_toStartOf="@+id/teamTelegram"
+            app:layout_constraintEnd_toStartOf="@+id/teamGithub"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            android:src="@drawable/github_circle" />
+            android:src="@drawable/home_circle" />
 
         <ImageButton
-            android:id="@+id/teamTelegram"
-            android:layout_width="96dp"
+            android:id="@+id/teamGithub"
+            android:layout_width="80dp"
             android:layout_height="48dp"
-            android:layout_marginEnd="8dp"
             android:background="?android:attr/selectableItemBackground"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/teamWebsite"
+            app:layout_constraintEnd_toStartOf="@+id/teamGerrit"
+            app:layout_constraintTop_toTopOf="@+id/teamWebsite"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            android:src="@drawable/github" />
+
+        <ImageButton
+            android:id="@+id/teamGerrit"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackground"
             app:layout_constraintStart_toEndOf="@+id/teamGithub"
+            app:layout_constraintEnd_toStartOf="@+id/teamDownloads"
             app:layout_constraintTop_toTopOf="@+id/teamGithub"
-            android:src="@drawable/telegram" />
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            android:src="@drawable/gerrit" />
+
+        <ImageButton
+            android:id="@+id/teamDownloads"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintStart_toEndOf="@+id/teamGerrit"
+            app:layout_constraintEnd_toStartOf="@+id/teamDiscord"
+            app:layout_constraintTop_toTopOf="@+id/teamGerrit"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            android:src="@drawable/downloads" />
+
+        <ImageButton
+            android:id="@+id/teamDiscord"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintStart_toEndOf="@+id/teamDownloads"
+            app:layout_constraintEnd_toStartOf="@+id/teamTelegram"
+            app:layout_constraintTop_toTopOf="@+id/teamDownloads"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            android:src="@drawable/support" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
