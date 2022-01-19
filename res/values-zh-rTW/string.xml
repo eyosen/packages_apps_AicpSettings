@@ -38,7 +38,7 @@
     <string name="buttons_title">Buttons</string>
     <string name="buttons_summary">Customize hardware button actions</string>
     <!-- About team -->
-    <string name="about_team_title">About Syberia team</string>
+    <string name="about_team_title">About AICP</string>
     <string name="about_team_summary">Information about the team and maintainers</string>
     <string name="syberia_team_title">Syberia Team</string>
     <string name="panel_notifications_title">Notifications</string>
