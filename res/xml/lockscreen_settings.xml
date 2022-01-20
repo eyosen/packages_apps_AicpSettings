@@ -36,6 +36,18 @@
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
+
+    <PreferenceCategory
+          android:key="lockscreen_security_category"
+          android:title="@string/lockscreen_security_category">
+
+          <com.aicp.gear.preference.SystemSettingSwitchPreference
+              android:key="lockscreen_scramble_pin_layout"
+              android:title="@string/unlock_scramble_pin_layout_title"
+              android:summary="@string/unlock_scramble_pin_layout_summary"
+              android:defaultValue="false" />
+    </PreferenceCategory>
+
 <!--
     <PreferenceCategory
         android:key="lockscreen_media_category"

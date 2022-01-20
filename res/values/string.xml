@@ -971,4 +971,11 @@
     <string name="less_notification_sounds_5m">Every 5 minutes</string>
     <string name="less_notification_sounds_15m">Every 15 minutes</string>
     <string name="less_notification_sounds_30m">Every 30 minutes</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_security_category">Security</string>
+
+    <!-- Scramble PIN layout when unlocking -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
