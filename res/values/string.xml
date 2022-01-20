@@ -96,7 +96,7 @@
     <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
 
     <!-- FP Swipe to dismiss notifications -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Dismiss notifications</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Swipe to dismiss notifications</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Swipe left or right on fingerprint controller to dismiss notifications</string>
 
     <!-- Volume rocker music control -->
