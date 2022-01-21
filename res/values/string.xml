@@ -988,4 +988,17 @@
     <string name="smart_pulldown_summary">Open quick settings when there are %1$s</string>
     <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
     <string name="smart_pulldown_off_summary">is turned off</string>
+
+    <!-- QS rows and columns -->
+    <string name="qs_layout_category_title">QS Layout</string>
+    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tile columns on landscape</string>
+
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_title">Tile layout</string>
+    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+
+    <!-- QS tiles title visibility -->
+    <string name="qs_tile_title_visibility_title">Hide titles</string>
+    <string name="qs_tile_title_visibility_summary">Enable to hide QS tile titles</string>
 </resources>

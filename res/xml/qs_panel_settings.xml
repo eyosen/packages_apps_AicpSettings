@@ -17,7 +17,45 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:aicpextras="http://schemas.android.com/apk/res-auto"
     android:title="@string/panel_quicksettings_title">
+
+    <PreferenceCategory
+        android:key="qs_layout_category"
+        android:title="@string/qs_layout_category_title">
+
+        <com.aicp.gear.preference.SystemSettingSwitchPreference
+            android:key="qs_tile_label_hide"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:summary="@string/qs_tile_title_visibility_summary"
+            android:defaultValue="false"/>
+
+        <com.aicp.gear.preference.SystemSettingSwitchPreference
+            android:key="qs_tile_vertical_layout"
+            android:title="@string/qs_tile_layout_title"
+            android:summary="@string/qs_tile_layout_summary"
+            android:defaultValue="false"/>
+
+        <com.aicp.gear.preference.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns"
+            android:title="@string/qs_columns_portrait_title"
+            android:max="4"
+            android:min="2"
+            aicpextras:interval="2"
+            aicpextras:unitsLeft=""
+            aicpextras:unitsRight=""
+            android:defaultValue="2" />
+
+        <com.aicp.gear.preference.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns_landscape"
+            android:title="@string/qs_columns_landscape_title"
+            android:max="8"
+            android:min="2"
+            aicpextras:interval="2"
+            aicpextras:unitsLeft=""
+            aicpextras:unitsRight=""
+            android:defaultValue="2" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="quick_settings_haptic_feedback_category"
