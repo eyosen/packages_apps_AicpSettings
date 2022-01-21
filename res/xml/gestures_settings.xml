@@ -59,6 +59,14 @@
         android:defaultValue="0"
         android:title="@string/quick_pulldown_title" />
 
+        <!-- Smart pulldown -->
+    <com.aicp.gear.preference.SystemSettingIntListPreference
+        android:key="qs_smart_pulldown"
+        android:entries="@array/smart_pulldown_entries"
+        android:entryValues="@array/smart_pulldown_values"
+        android:defaultValue="0"
+        android:title="@string/smart_pulldown_title" />
+
     <com.aicp.gear.preference.SecureSettingSwitchPreference
         android:key="fp_swipe_to_dismiss_notifications"
         android:title="@string/fp_swipe_to_dismiss_notifications_title"
