@@ -64,6 +64,12 @@
             android:entries="@array/less_notification_sounds_entries"
             android:entryValues="@array/less_notification_sounds_values"
             android:defaultValue="0" />
+
+        <com.aicp.gear.preference.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="0" />
     </PreferenceCategory>
 
 </PreferenceScreen>
