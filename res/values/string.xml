@@ -23,8 +23,8 @@
     <string name="gestures_category_summary">Various gestures settings</string>
     <string name="system_category_title">System</string>
     <string name="system_category_summary">Various system extensions</string>
-    <string name="statusbar_category_title">Statusbar</string>
-    <string name="statusbar_category_summary">Customize your statusbar</string>
+    <string name="statusbar_category_title">Status bar</string>
+    <string name="statusbar_category_summary">Customize your status bar</string>
     <string name="bars_category_title">Bars</string>
     <string name="bars_category_summary">Status bar, navigation bar, battery bar</string>
     <string name="lockscreen_category_title">Lockscreen</string>
@@ -35,7 +35,7 @@
 
     <string name="systemui_tuner_title">Statusbar items</string>
     <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
-    <string name="navbar_title">Navigation Bar</string>
+    <string name="navbar_title">Navigation bar</string>
     <string name="navbar_category_summary">Customize your navigation panel</string>
 
     <string name="general_tweaks_title">General Tweaks</string>
@@ -66,7 +66,7 @@
     <string name="color_default">Default</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Status bar items</string>
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
@@ -990,15 +990,16 @@
     <string name="smart_pulldown_off_summary">is turned off</string>
 
     <!-- QS rows and columns -->
-    <string name="qs_layout_category_title">QS Layout</string>
+    <string name="qs_layout_category_title">QS layout</string>
     <string name="qs_columns_portrait_title">Tile columns on portrait</string>
     <string name="qs_columns_landscape_title">Tile columns on landscape</string>
 
     <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_title">Tile layout</string>
+    <string name="qs_tile_layout_category_title">Tile layout</string>
+    <string name="qs_tile_layout_title">Vertical layout</string>
     <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
 
     <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Hide titles</string>
-    <string name="qs_tile_title_visibility_summary">Enable to hide QS tile titles</string>
+    <string name="qs_tile_title_visibility_title">Hide title</string>
+    <string name="qs_tile_title_visibility_summary">Enable to hide QS tile title</string>
 </resources>
