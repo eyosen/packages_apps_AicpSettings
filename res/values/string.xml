@@ -1002,4 +1002,8 @@
     <!-- QS tiles title visibility -->
     <string name="qs_tile_title_visibility_title">Hide title</string>
     <string name="qs_tile_title_visibility_summary">Enable to hide QS tile title</string>
+
+    <!-- Lockscreen small clock  -->
+    <string name="lockscreen_small_clock_title">Force small clock display</string>
+    <string name="lockscreen_small_clock_summary">Enable to show a small clock on lockscreen.</string>
 </resources>

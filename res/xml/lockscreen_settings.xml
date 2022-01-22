@@ -18,6 +18,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/lockscreen_category_title">
+
+    <com.aicp.settings.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_small_clock"
+        android:title="@string/lockscreen_small_clock_title"
+        android:summary="@string/lockscreen_small_clock_summary"
+        android:defaultValue="false" />
 <!--
     <com.aicp.settings.preference.SystemSettingSwitchPreference
         android:key="fingerprint_success_vib"
